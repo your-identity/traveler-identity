@@ -2,6 +2,9 @@
 title: My First Post
 date: 2020-04-30T19:49:05.000Z
 description: A great topic
+tags:
+  - Travel
+  - Food
 ---
 ### A great travel post
 
