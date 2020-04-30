@@ -1,3 +1,32 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My Hugo Site"
+title = "Traveler's Identity"
+theme = "minimal"
+googleAnalytics = ""
+
+[params]
+    author = "Fashion Travels"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "#"
+    accent = "violet"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Futura" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 3
