@@ -13,22 +13,20 @@ collections:
       preview: false
     fields:
       - { label: 'Brand Name', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Map', name: 'map', widget: 'string' }
   - name: 'about'
     label: 'About'
-    folder: 'content/about'
+    folder: 'content/'
     create: false
-    slug: '_index.md'
+    slug: 'about.md'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'posts'
-    label: 'About'
+    label: 'Posts'
     folder: 'content/post'
     create: true
     slug: '{{slug}}'
@@ -38,4 +36,5 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: "Tags", name: "tags", widget: "list", default: ["travel"]}
       - { label: 'Body', name: 'body', widget: 'markdown' }
