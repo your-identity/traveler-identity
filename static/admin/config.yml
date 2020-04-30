@@ -4,11 +4,34 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'homepage'
+    label: 'Home Page'
+    folder: 'content/'
+    create: false
+    slug: '_index.md'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Brand Name', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Map', name: 'weight', widget: 'number' }
+  - name: 'about'
+    label: 'About'
+    folder: 'content/about'
+    create: false
+    slug: '_index.md'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'posts'
+    label: 'About'
+    folder: 'content/post'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
