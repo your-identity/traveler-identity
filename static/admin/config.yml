@@ -18,7 +18,7 @@ collections:
     label: 'About'
     folder: 'content/about'
     create: false
-    slug: '_index.md'
+    slug: 'about.md'
     editor:
       preview: false
     fields:
