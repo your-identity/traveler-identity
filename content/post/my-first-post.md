@@ -4,7 +4,7 @@ date: 2020-04-30T19:49:05.000Z
 description: A great topic
 tags:
   - Travel
-  - Food
+  - Blog
 ---
 ### A great travel post
 
