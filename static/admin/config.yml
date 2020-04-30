@@ -16,9 +16,9 @@ collections:
       - { label: 'Map', name: 'map', widget: 'string' }
   - name: 'about'
     label: 'About'
-    folder: 'content/'
+    folder: 'content/about'
     create: false
-    slug: 'about.md'
+    slug: '_index.md'
     editor:
       preview: false
     fields:
@@ -36,5 +36,5 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: "Tags", name: "tags", widget: "list", default: ["travel"]}
+      - { label: "Tags", name: "tags", widget: "list", default: ["travel, blog"]}
       - { label: 'Body', name: 'body', widget: 'markdown' }

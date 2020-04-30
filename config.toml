@@ -5,9 +5,8 @@ theme = "minimal"
 googleAnalytics = ""
 
 [params]
-    author = "Fashion Travels"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
+    author = "A Traveler"
+    description = "Travel blog"
     accent = "violet"
     showBorder = true
     backgroundColor = "white"
@@ -22,7 +21,7 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
-    url = "/about/"
+    url = "/about/about/"
     name = "About"
     weight = 2
 
